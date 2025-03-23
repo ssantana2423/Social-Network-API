@@ -6,9 +6,6 @@
   "scripts": {
     "build": "tsc",
     "start": "npm run build && node dist/server.js"
-    
-
-  
   },
   "repository": {
     "type": "git",
@@ -23,5 +20,9 @@
   "description": "",
   "devDependencies": {
     "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.12.2"
   }
 }
