@@ -1,0 +1,27 @@
+{
+  "name": "social-network-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/server.js"
+    
+
+  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssantana2423/Social-Network-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssantana2423/Social-Network-API/issues"
+  },
+  "homepage": "https://github.com/ssantana2423/Social-Network-API#readme",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
